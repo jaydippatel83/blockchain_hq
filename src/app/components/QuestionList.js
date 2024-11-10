@@ -115,6 +115,35 @@ export default function QuestionList() {
                 Ask Question
               </button>
             </Link>
+            {/* Profile Icon */}
+            <Link href="/profile">
+              <button className="p-2 bg-gray-200 rounded-full hover:bg-gray-300">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  className="h-6 w-6 text-gray-700"
+                  fill="none"
+                  viewBox="0 0 24 24"
+                  stroke="currentColor"
+                  strokeWidth={2}
+                >
+                  <path
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
+                    d="M5.121 17.804A9 9 0 1118.878 6.196 9 9 0 015.121 17.804z"
+                  />
+                  <path
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
+                    d="M12 12a3 3 0 100-6 3 3 0 000 6z"
+                  />
+                  <path
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
+                    d="M12 14c-4.418 0-8 1.79-8 4v1h16v-1c0-2.21-3.582-4-8-4z"
+                  />
+                </svg>
+              </button>
+            </Link>
           </div>
         </div>
 
@@ -148,7 +177,7 @@ export default function QuestionList() {
                 </svg>
               </div>
             </div>
-            <Link href="/questionDetail">
+            <Link href="questionDetail">
               <div className="flex-1">
                 <h3 className="text-lg font-semibold text-blue-600 cursor-pointer hover:underline">
                   {question.title}
