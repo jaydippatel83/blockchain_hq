@@ -34,7 +34,7 @@ export default function ProfilePage() {
     <>
     <Navbar/>
 
-    <div className="min-h-screen   py-8 px-4">
+    <div className="min-h-screen py-8 px-4">
       <div className="max-w-3xl mx-auto bg-white p-8 rounded-lg shadow-lg border border-gray-200">
         {/* Profile Header */}
         <div className="flex items-center space-x-6">
