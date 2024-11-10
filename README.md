@@ -1,4 +1,4 @@
-BlockchainHQ is a Web3 hub for developers to ask questions, learn, and earn for their contributions.
+**BlockchainHQ** is a Web3 hub for developers to ask questions, learn, and earn for their contributions.
 
 The problem we're solving is simple: in current tech forums, developers who help the community by answering questions only receive "upvotes" or "reputation" as rewards. The real economic value goes to the forums, leaving the contributors with little to gain.
 
