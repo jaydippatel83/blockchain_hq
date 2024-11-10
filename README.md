@@ -13,3 +13,5 @@ Our platform also includes a marketplace with an escrow system. Here, anyone can
 **No hefty Commissions to freelancing platforms**: Our marketplace is powered by smart contracts, eliminating the hefty commissions charged by traditional freelancing platforms.
 
 **Growth of EDU Token Ecosystem**: The EDU token and Educhain ecosystem create a sustainable incentive structure to attract and support new developers.
+
+<img width="967" alt="Screenshot 2024-11-10 at 4 59 22 PM" src="https://github.com/user-attachments/assets/b92d225c-13c6-4421-91b6-145af61582ab">
