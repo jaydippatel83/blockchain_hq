@@ -10,6 +10,8 @@
   },
   "dependencies": {
     "@nomicfoundation/hardhat-toolbox": "^5.0.0",
+    "@opencampus/ocid-connect-js": "^1.2.3",
+    "@openzeppelin/contracts": "^5.1.0",
     "dotenv": "^16.4.5",
     "firebase": "^11.0.1",
     "next": "15.0.3",

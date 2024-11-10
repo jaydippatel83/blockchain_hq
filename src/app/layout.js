@@ -1,3 +1,4 @@
+import OCConnectWrapper from "@/components/connect";
 import "./globals.css"; 
 
 export const metadata = {
@@ -6,12 +7,20 @@ export const metadata = {
 };
 
 export default function RootLayout({ children }) {
+
+  const opts = {
+    redirectUri: 'http://localhost:3000/redirect', 
+    referralCode: 'PARTNER6',  
+  };
+
   return (
     <html lang="en">
       <body
         className={`antialiased`}
       >
-        {children}
+       <OCConnectWrapper opts={opts} sandboxMode={true}>
+          {children}
+        </OCConnectWrapper>
       </body>
     </html>
   );
