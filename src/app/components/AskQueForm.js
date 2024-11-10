@@ -20,7 +20,7 @@ export default function PostQuestionForm() {
   };
 
   return (
-    <form onSubmit={handleSubmit} className="bg-white p-8 rounded-lg shadow-md">
+    <form onSubmit={handleSubmit} className="bg-white p-8 my-8 rounded-lg shadow-md max-w-lg mx-auto ">
       <div className="mb-6">
         <label htmlFor="title" className="block text-lg font-semibold text-gray-700 mb-2">Question Title</label>
         <input

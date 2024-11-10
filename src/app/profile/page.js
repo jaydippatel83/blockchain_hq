@@ -1,3 +1,4 @@
+import Navbar from "@/components/Navbar";
 import { HiOutlineLocationMarker, HiOutlineCalendar } from "react-icons/hi";
 
 export default function ProfilePage() {
@@ -30,7 +31,10 @@ export default function ProfilePage() {
   };
 
   return (
-    <div className="min-h-screen bg-gradient-to-b from-blue-100 to-white py-8 px-4">
+    <>
+    <Navbar/>
+
+    <div className="min-h-screen   py-8 px-4">
       <div className="max-w-3xl mx-auto bg-white p-8 rounded-lg shadow-lg border border-gray-200">
         {/* Profile Header */}
         <div className="flex items-center space-x-6">
@@ -88,5 +92,6 @@ export default function ProfilePage() {
         </div>
       </div>
     </div>
+    </>
   );
 }
