@@ -142,6 +142,7 @@ contract BlockchainHQ {
         Question storage question = questions[questionId];
         Consultation storage consultation = consultations[question.consultationId];
         require(experts[msg.sender].isRegistered, "Only registered experts can answer");
+        require(consultation.expert == msg.sender, "Only the assigned expert can answer this question");  
         require(block.timestamp <= consultation.endTime, "Consultation has ended");
         require(!question.answered, "Question already answered");
 
