@@ -33,30 +33,4 @@ export default function HomePage() {
     </div>
   );
 }
-
-// Reusable Feature Card Component
-const FeatureCard = ({ title, description }) => (
-  <div className="bg-white p-6 rounded-lg shadow-lg">
-    <h3 className="text-xl font-bold mb-2">{title}</h3>
-    <p>{description}</p>
-  </div>
-);
-
-// Reusable Step Card Component
-const StepCard = ({ step, title, description }) => (
-  <div className="bg-white p-6 rounded-lg shadow-lg">
-    <div className="text-2xl font-bold text-blue-600 mb-2">Step {step}</div>
-    <h3 className="text-xl font-bold mb-2">{title}</h3>
-    <p>{description}</p>
-  </div>
-);
-
-// Reusable Expert Card Component
-const ExpertCard = ({ name, title, expertise, imgSrc }) => (
-  <div className="bg-white p-6 rounded-lg shadow-lg text-center">
-    <img src={imgSrc} alt={name} className="w-24 h-24 rounded-full mx-auto mb-4" />
-    <h3 className="text-xl font-bold mb-1">{name}</h3>
-    <p className="text-gray-600 mb-2">{title}</p>
-    <p className="text-blue-600 font-semibold">{expertise}</p>
-  </div>
-);
+ 
