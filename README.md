@@ -16,4 +16,10 @@ Our platform also includes a marketplace with an escrow system. Here, anyone can
 
 <img width="967" alt="Screenshot 2024-11-10 at 4 59 22 PM" src="https://github.com/user-attachments/assets/b92d225c-13c6-4421-91b6-145af61582ab">
 
+<img width="1464" alt="Screenshot 2024-11-10 at 4 59 48 PM" src="https://github.com/user-attachments/assets/bea9b8c3-1384-443e-8023-7bedcea4a97d">
+
+<img width="915" alt="Screenshot 2024-11-10 at 5 00 12 PM" src="https://github.com/user-attachments/assets/eb261ebe-25d9-486a-ad11-5813a943b9c1">
+
+
+
 
