@@ -18,7 +18,7 @@ const RegisterExpert = () => {
       const signer = provider.getSigner();
       const contract = getContract(signer);
 
-      const tx = await contract.registerExpert(ethers.utils.parseEther(fee), feeType);
+      const tx = await contract.registerExpert(ethers.parseEther(fee), feeType);
       await tx.wait();
       toast.success("Expert registered successfully");
     } catch (error) {

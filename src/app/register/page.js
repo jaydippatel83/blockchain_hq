@@ -25,7 +25,7 @@ const Register = () => {
     if (!walletAddress) return alert("Please connect your wallet.");
     const provider = new ethers.BrowserProvider(window.ethereum);
     const signer = provider.getSigner();
-    const feeInWei = ethers.utils.parseEther(fee); // Convert fee to wei
+    const feeInWei = ethers.parseEther(fee); // Convert fee to wei
     await registerExpert(feeInWei, parseInt(feeType), signer);
     alert("Expert registered successfully!");
   };
