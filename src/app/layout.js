@@ -1,5 +1,6 @@
-import OCConnectWrapper from "@/components/connect";
+ 
 import "./globals.css"; 
+import { WalletProvider } from "@/context/WalletContext";
 
 export const metadata = {
   title: "Blockchain HQ",
@@ -18,9 +19,9 @@ export default function RootLayout({ children }) {
       <body
         className={`antialiased`}
       >
-       <OCConnectWrapper opts={opts} sandboxMode={true}>
+        <WalletProvider>
           {children}
-        </OCConnectWrapper>
+          </WalletProvider>
       </body>
     </html>
   );
