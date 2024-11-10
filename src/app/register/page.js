@@ -15,7 +15,7 @@ const Register = () => {
 
   const handleUserRegistration = async () => {
     if (!walletAddress) return alert("Please connect your wallet.");
-    const provider = new ethers.providers.Web3Provider(window.ethereum);
+    const provider = new ethers.BrowserProvider(window.ethereum);
     const signer = provider.getSigner();
     await registerUser(name, userAddress, signer);
     alert("User registered successfully!");
@@ -23,7 +23,7 @@ const Register = () => {
 
   const handleExpertRegistration = async () => {
     if (!walletAddress) return alert("Please connect your wallet.");
-    const provider = new ethers.providers.Web3Provider(window.ethereum);
+    const provider = new ethers.BrowserProvider(window.ethereum);
     const signer = provider.getSigner();
     const feeInWei = ethers.utils.parseEther(fee); // Convert fee to wei
     await registerExpert(feeInWei, parseInt(feeType), signer);
